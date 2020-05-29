@@ -1,0 +1,20 @@
+.container_paganti{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.container_paganti .pagante{
+ text-align: center;
+ position: relative;
+ width: 300px;
+ border: 1px solid black;
+}
+.delete{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
